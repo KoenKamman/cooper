@@ -1,7 +1,7 @@
 {
-  "defaultSeverity": "error",
-  "extends": ["tslint:recommended", "tslint-config-prettier"],
-  "jsRules": {},
-  "rules": {},
-  "rulesDirectory": []
+  "rules": {
+    "curly": [true, "ignore-same-line"],
+    "interface-name": [true, "never-prefix"]
+  },
+  "extends": ["tslint:recommended", "tslint-config-prettier"]
 }
